@@ -21,6 +21,66 @@
   <link rel="stylesheet" href="../assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
+   <style>
+  /* -- Tetap warna NAVBAR atas oranye -- */
+  .skin-custom .main-header {
+    background-color: #f8593b !important;
+  }
+  .skin-custom .main-header .logo {
+    background-color: #e74c3c !important;
+    color: #ffffff !important;
+  }
+  .skin-custom .main-header .navbar {
+    background-color: #f8593b !important;
+  }
+  .skin-custom .main-header .sidebar-toggle,
+  .skin-custom .main-header .navbar-custom-menu > .nav > li > a {
+    color: #ffffff !important;
+  }
+  .skin-custom .main-header .navbar-custom-menu > .nav > li > a:hover {
+    background-color: #f1462c !important;
+  }
+
+  /* -- Kembalikan warna SIDEBAR seperti skin-blue -- */
+  .skin-custom .main-sidebar {
+    background-color: #222d32 !important;
+  }
+
+  .skin-custom .main-sidebar .user-panel > .info,
+  .skin-custom .sidebar a {
+    color: #b8c7ce !important;
+  }
+
+  .skin-custom .sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+  }
+
+  .skin-custom .sidebar-menu > li:hover > a,
+  .skin-custom .sidebar-menu > li.active > a {
+    color: #ffffff !important;
+    background: #1e282c !important;
+    border-left-color: #f8593b !important;
+  }
+
+  .skin-custom .sidebar-menu .treeview-menu > li > a {
+    color: #8aa4af !important;
+  }
+
+  .skin-custom .sidebar-menu .treeview-menu > li.active > a,
+  .skin-custom .sidebar-menu .treeview-menu > li > a:hover {
+    color: #ffffff !important;
+  }
+  .skin-custom .main-footer {
+    background-color: #263238 !important; /* warna seperti footer customer */
+    color: #fff !important;
+    border-top: none;
+  }
+
+  .skin-custom .main-footer a {
+    color: #f1f1f1 !important;
+  }
+</style>
+
   <?php 
   include '../koneksi.php';
   session_start();
@@ -30,7 +90,7 @@
   ?>
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-custom sidebar-mini">
   <div class="wrapper">
 
     <header class="main-header">

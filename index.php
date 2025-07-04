@@ -10,7 +10,12 @@
           Bincy Jaya Abadi menyediakan beragam pilihan mesin air berkualitas untuk kebutuhan rumah tangga maupun industri Anda.
         </p>
         <a href="katalog.php" class="primary-btn" style="margin-top: 25px;">Temukan Mesin -></a>
-        <a href="kontak.php" class="main-btn" style="margin-left: 10px; margin-top: 25px;">Hubungi Kami</a>
+        <a href="https://wa.me/6287778348191?text=Halo%20Bincy%20Jaya%20Abadi%2C%20saya%20tertarik%20dengan%20produk%20mesin%20air%20Anda." 
+          target="_blank" 
+          class="main-btn" 
+          style="margin-left: 10px; margin-top: 25px;">
+          Hubungi Kami
+        </a>
       </div>
       <div class="col-md-6 text-center">
         <img src="frontend/img/mesin-air.png" alt="Mesin Air" class="img-responsive" style="max-width: 100%; height: auto;">

@@ -112,7 +112,7 @@
 								</table>
 							</div>
 							<div style="margin-top: 20px;">
-								<a href="https://wa.me/6281234567890" target="_blank" style="text-decoration: none;">
+								<a href="https://wa.me/6287778348191" target="_blank" style="text-decoration: none;">
 									<img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Chat Admin via WhatsApp" style="vertical-align: middle;" />
 									<span style="font-weight: bold; font-size: 16px; margin-left: 8px;">Hubungi Admin via WhatsApp</span>
 								</a>
