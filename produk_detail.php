@@ -102,10 +102,20 @@ while($d=mysqli_fetch_array($data)){
 								<span class="sale">Kualitas Terbaik</span>
 							</div>
 							<br>
-							<h2 class="product-name"><?php echo $d['produk_nama']; ?></h2>
-							<br>
-							<h3 class="product-price"><?php echo "Rp. ".number_format($d['produk_harga']).",-"; ?> <?php if($d['produk_jumlah'] == 0){?> <del class="product-old-price">Kosong</del> <?php } ?></h3>
-							<br/>
+							<h2 class="product-name" style="font-size: 22px; font-weight: bold; color: #2c3e50; margin-bottom: 10px; height: auto;">
+							<?php echo nl2br($d['produk_nama']); ?>
+							</h2>
+
+							<h3 class="product-price" style="display: block; font-size: 20px; font-weight: bold; color: #e74c3c;">
+							<?php echo "Rp. ".number_format($d['produk_harga']).",-"; ?>
+							</h3>
+
+							<?php if($d['produk_jumlah'] == 0){ ?>
+							<h4 class="product-old-price" style="display: block; color: #999; margin-top: 5px;">
+								<del>Kosong</del>
+							</h4>
+							<?php } ?>
+
 							<div>
 								<div class="product-rating">
 									<i class="fa fa-star"></i>

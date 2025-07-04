@@ -43,8 +43,9 @@
 							<form action="masuk_act.php" method="post">
 								
 								<div class="form-group">
-									<label for="">Email</label>
-									<input type="email" class="input" required="required" name="email" placeholder="Masukkan email ..">
+									<label for="">Username atau Email</label>
+									<input type="text" class="input" required="required" name="username" placeholder="Masukkan username atau email ..">
+
 								</div>
 
 								<div class="form-group">
