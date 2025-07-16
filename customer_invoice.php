@@ -104,11 +104,6 @@
 											</tr>
 											<tr>
 												<td colspan="4" style="border: none"></td>
-												<th>Ongkir (<?php echo $i['invoice_kurir'] ?>)</th>
-												<td class="text-center"><?php echo "Rp. ".number_format($i['invoice_ongkir'])." ,-"; ?></td>
-											</tr>
-											<tr>
-												<td colspan="4" style="border: none"></td>
 												<th>Total Bayar</th>
 												<td class="text-center"><?php echo "Rp. ".number_format($i['invoice_total_bayar'])." ,-"; ?></td>
 											</tr>
