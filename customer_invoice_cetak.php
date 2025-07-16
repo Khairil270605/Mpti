@@ -38,7 +38,7 @@
 			<div>
 
 				<center>
-					<h3>Toko Online Pakaian Tenun</h3>
+					<h3>Toko Online Bincy Jaya Abadi</h3>
 				</center>
 
 				<h4>INVOICE-00<?php echo $i['invoice_id'] ?></h4>
@@ -100,11 +100,6 @@
 							<td colspan="4" style="border: none"></td>
 							<th>Total Belanja</th>
 							<td class="text-center"><?php echo "Rp. ".number_format($total)." ,-"; ?></td>
-						</tr>
-						<tr>
-							<td colspan="4" style="border: none"></td>
-							<th>Ongkir (<?php echo $i['invoice_kurir'] ?>)</th>
-							<td class="text-center"><?php echo "Rp. ".number_format($i['invoice_ongkir'])." ,-"; ?></td>
 						</tr>
 						<tr>
 							<td colspan="4" style="border: none"></td>
